@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp7"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Nadaj przesyłkę" Height="450" Width="800">
+    <Grid Background="LightGray">
+        <GroupBox Header="Dane adresowe"  Margin="400,30,0,0" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Height="311" Width="333"/>
+        <GroupBox Header="Rodzaj przesyłki" Margin="28,30,0,0" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Height="156" Width="338"/>
+        <Button Content="Sprawdź cenę" Margin="64,195,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="47" Width="259"/>
+        <Button Content="Zatwierdź" Margin="0,356,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="49" Width="632"/>
+        <Image Margin="64,247,0,0" Source="/koperta.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="164"/>
 
     </Grid>
 </Window>
